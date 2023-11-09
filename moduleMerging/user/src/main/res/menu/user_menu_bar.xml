@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/logout_btn"
+        android:title="Logout">
+
+    </item>
+    <item
+        android:id="@+id/helpdesk_btn"
+        android:title="HelpDesk"></item>
+    <item
+        android:id="@+id/Profile"
+        android:title="Profile">
+        <menu>
+            <item android:id="@+id/User_details"
+                android:title="user_details"></item>
+            <item android:id="@+id/order_details"
+                android:title="order_details"></item>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/status"
+        android:title="Status">
+
+    </item>
+</menu>

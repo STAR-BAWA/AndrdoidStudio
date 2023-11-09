@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Vendor</string>
+    <string name="numbercode">code</string>
+    <string name="Gender">list</string>
+    <string name="email">email</string>
+    <string name="address">address</string>
+</resources>

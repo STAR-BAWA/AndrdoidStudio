@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_prod_details">
+
+    <Button
+        android:id="@+id/button_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1C2DCA"
+        android:text="Add to cart"
+        android:textColor="#ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewuser_details"
+        android:layout_width="161dp"
+        android:layout_height="139dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/bookName_user"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="424dp"
+        android:gravity="center"
+        android:text="bookName"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:layout_marginTop="31dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/button_cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bookName_user"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/bookDescUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        android:textColor="#000000"
+        android:textSize="23dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/Auth_user"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:text="BookAuth" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/SellerNumber"
+        android:layout_width="201dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:text="Seller_Number"
+        android:textColor="#000000"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_cart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <TextView
+        android:id="@+id/Amount"
+        android:layout_width="119dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        android:text="Amount"
+        android:textColor="#000000"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_cart"
+        app:layout_constraintEnd_toStartOf="@+id/SellerNumber"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPhone_user_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your phone number please!"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

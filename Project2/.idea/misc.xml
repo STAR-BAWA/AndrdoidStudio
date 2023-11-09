@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable-v24/custom_input.xml" value="0.1505" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable-v24/ic_baseline_house_24.xml" value="0.1" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/add_new_prod.xml" value="0.2425" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/admin_drawable.xml" value="0.179" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/admin_main.xml" value="0.1605" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/adminbackground.xml" value="0.1055" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/button_style.xml" value="0.135" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/buttons.xml" value="0.17" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/custom_dialog.xml" value="0.107" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/custom_dialog2.xml" value="0.129" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/dashboard_layout.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/details_class.xml" value="0.2425" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/edittextsyle.xml" value="0.135" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_baseline_admin_panel_settings_24.xml" value="0.1605" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_baseline_contact_support_24.xml" value="0.1605" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.1" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_baseline_photo_library_24.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_baseline_security_24.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.184" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/progress_animation.xml" value="0.13" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/rating_button.xml" value="0.205" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/recycler_design.xml" value="0.1775" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/registration_page.xml" value="0.2415" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/seller_login.xml" value="0.2425" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/drawable/whatsapp.xml" value="0.179" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout-w1240dp/activity_cart_login.xml" value="0.15194109772423026" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout-w936dp/activity_cart_login.xml" value="0.536" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_add_cart_number.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_added_products.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_admin_add_new_product.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_admin_category.xml" value="0.2001763668430335" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_admin_login.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_admin_main_screen.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_admin_order_screen.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_cart.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_cart_login.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_change_password.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_contact_support.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_dashboard.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_forgotpassword.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_home_acitivity.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_home_page_vendor.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_home_page_vendor2.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_home_page_vendor3.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_inventory.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_inventory_details.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_login.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_login_acitvity.xml" value="0.136" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_login_actitvity.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_notification_list.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_page_details_vendor.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_password_question.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_registration_acitvity.xml" value="0.1" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_seller_home_products.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_seller_login.xml" value="0.176" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_seller_rating.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_seller_registration.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_stock.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_tand_c.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_central.xml" value="0.13178294573643412" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_change_password.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_forgot_password.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_home_modal.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_home_page.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_login.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_main.xml" value="0.16" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_order_history.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_order_history2.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_password_questions.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_prod_details.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_prod_details2.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_profile.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_profile2.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_user_registration.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_vendor_new_order.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_vendor_recycler_adapter.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/activity_vendor_recyler.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/cart_acitivity.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/cart_item.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/cart_layout.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/contact_row.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/contact_support.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/forgorpassword.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/fragment_customer_support.xml" value="0.264" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/fragment_notifications.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/list_layout_vendor_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/product_orderlist.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/seller_rating.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/t_and_c.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/user_history.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/user_home_layout.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/user_home_main.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/layout/vendor_new_order_layout.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/menu/menu.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/menu/menu2.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project2/app/src/main/res/menu/searchmenu.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

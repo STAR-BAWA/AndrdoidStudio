@@ -1,0 +1,28 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer stroke -->
+    <stroke android:color="#002ED3"
+        android:width="10dp"
+        android:dashGap="21dp" />
+
+    <!-- Inner stroke -->
+    <stroke android:color="#FFFFFF"
+        android:width="8dp" />
+
+    <!-- Rounded corners -->
+    <corners android:radius="5dp"/>
+
+    <!-- Gradient fill -->
+    <gradient
+        android:startColor="#FBFBFB"
+        android:endColor="#98B5F1"
+        android:angle="45"/>
+
+    <!-- Padding to create a margin effect -->
+    <padding
+        android:left="15dp"
+        android:right="15dp"
+        android:top="15dp"
+        android:bottom="15dp"/>
+
+</shape>

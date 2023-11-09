@@ -1,0 +1,60 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cart_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="21dp"
+    app:cardElevation="23dp"
+    app:cardBackgroundColor="#E2E5EC"
+    android:elevation="4dp">
+
+    <RelativeLayout
+        android:id="@+id/cart_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/cart_item_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_baseline_stars_24" />
+
+        <TextView
+            android:id="@+id/cart_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/cart_item_image"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/cart_item_image"
+            android:text="Product Name"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cart_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cart_item_name"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/cart_item_image"
+            android:text="$9.99"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/cart_item_remove_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="#CC0000"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Remove"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

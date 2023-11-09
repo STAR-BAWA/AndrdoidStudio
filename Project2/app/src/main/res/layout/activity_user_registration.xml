@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_registration"
+    android:background="@drawable/registration_page">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginBottom="@dimen/_45sdp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="User Registration"
+                android:textColor="#fff"
+                android:textSize="42dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/VendorNameid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="23dp"
+                android:background="@drawable/edittextsyle"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/vendorPassId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_23sdp"
+                android:background="@drawable/edittextsyle"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:minHeight="@dimen/_48sdp" />
+
+            <EditText
+                android:id="@+id/VendorPhNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="23dp"
+                android:background="@drawable/edittextsyle"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:ems="10"
+                android:hint="Phone number"
+                android:inputType="phone"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:layout_marginBottom="@dimen/_23sdp"
+                android:background="@drawable/edittextsyle"
+                android:drawableLeft="@drawable/ic_baseline_house_24"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/vendormail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="23dp"
+                android:background="@drawable/edittextsyle"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:ems="10"
+                android:hint=" email"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp" />
+
+
+            <EditText
+                android:id="@+id/editTextQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittextsyle"
+                android:drawableEnd="@drawable/ic_baseline_security_24"
+                android:ems="10"
+                android:hint="Where did your parents meet ?"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/editTextQuestion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittextsyle"
+                android:drawableEnd="@drawable/ic_baseline_security_24"
+                android:ems="10"
+                android:hint="What was your secret food ?"
+                android:inputType="textPersonName"
+                android:text="" />
+
+
+            <EditText
+                android:id="@+id/editTextQuestion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edittextsyle"
+                android:drawableEnd="@drawable/ic_baseline_security_24"
+                android:ems="10"
+                android:hint="What is your favorite exercise ?"
+                android:inputType="textPersonName"
+                android:text="" />
+
+
+            <Button
+
+                android:id="@+id/buttonRegister"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_style"
+                android:text="Register" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

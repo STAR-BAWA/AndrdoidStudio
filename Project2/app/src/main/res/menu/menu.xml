@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Admin"
+        android:actionLayout="@layout/activity_admin_login"
+        android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+        android:id="@+id/adminActionBar"/>
+    <item
+        android:id="@+id/vendorDt"
+        android:actionLayout="@layout/list_layout_vendor_home"
+        android:title="vendor" />
+
+</menu>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddNewProduct"
+    android:background="@drawable/registration_page">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imagegallery"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:src="@drawable/ic_baseline_photo_library_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.059" />
+
+            <EditText
+                android:id="@+id/editTextBookName"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="@dimen/_34sdp"
+                android:layout_marginRight="45dp"
+                android:background="@drawable/edittextsyle"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter book name"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.443"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.391" />
+
+            <EditText
+                android:id="@+id/bookAuth"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="@dimen/_34sdp"
+                android:background="@drawable/edittextsyle"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter book author"
+                android:inputType="textMultiLine"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.449"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.477" />
+
+            <EditText
+                android:id="@+id/PriceOfbook"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginTop="@dimen/_34sdp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edittextsyle"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter book price in rupees"
+                android:inputType="phone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.58" />
+
+            <EditText
+                android:id="@+id/BriefDescription"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="@dimen/_34sdp"
+                android:background="@drawable/edittextsyle"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter a brief discription"
+                android:inputType="textMultiLine"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.755" />
+
+            <EditText
+                android:id="@+id/VendorContactAdminSide"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="@dimen/_34sdp"
+                android:background="@drawable/edittextsyle"
+                android:ems="10"
+                android:hint="Vendor Please enter your contact details..."
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextISBN"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="@dimen/_34sdp"
+                android:background="@drawable/edittextsyle"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="BOOK ISBN Number"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextBookOIN"
+                android:layout_width="match_parent"
+                android:background="@drawable/edittextsyle"
+                android:layout_height="68dp"
+                android:ems="10"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_34sdp"
+                android:inputType="textPersonName"
+                android:hint="Enter the OIN" />
+            <Button
+                android:id="@+id/AddnewDataAdmin_side"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginTop="@dimen/_34sdp"
+                android:background="@drawable/button_style"
+                android:text="Add product"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.915" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

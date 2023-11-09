@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.project2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project2"
+        tools:targetApi="31">
+        <activity
+            android:name=".User_change_password"
+            android:exported="false" />
+        <activity
+            android:name=".vendor_new_order"
+            android:exported="false" />
+        <activity
+            android:name=".user_orderHistory2"
+            android:exported="false" />
+        <activity
+            android:name=".user_orderHistory"
+            android:exported="false" />
+        <activity
+            android:name=".user_profile2"
+            android:exported="false" />
+        <activity
+            android:name=".user_profile"
+            android:exported="false" />
+        <activity
+            android:name=".cart_activity_login"
+            android:exported="false" />
+        <activity
+            android:name=".user_prod_details"
+            android:exported="false" />
+        <activity
+            android:name=".user_home"
+            android:exported="false" />
+        <activity
+            android:name=".cart_activity"
+            android:exported="false" />
+        <activity
+            android:name=".user_password_questions"
+            android:exported="false" />
+        <activity
+            android:name=".user_forgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".user_registration"
+            android:exported="false" />
+        <activity
+            android:name=".user_login"
+            android:exported="false" />
+        <activity
+            android:name=".notification_list"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Seller_rating"
+            android:exported="false" />
+        <activity
+            android:name=".Added_products"
+            android:exported="false" />
+        <activity
+            android:name=".PageDetailsVendor"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".t_and_c"
+            android:exported="false" />
+        <activity
+            android:name=".inventoryDetails"
+            android:exported="false" />
+        <activity
+            android:name=".inventory"
+            android:exported="false" />
+        <activity
+            android:name=".AdminOrderScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AdminMainScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".HomePageVendor"
+            android:exported="false"
+            android:label="@string/title_activity_home_page_vendor" />
+        <activity
+            android:name=".contact_support"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddNewProduct"
+            android:exported="false" />
+        <activity
+            android:name=".PasswordQuestion"
+            android:exported="false" />
+        <activity
+            android:name=".forgotpassword"
+            android:exported="false" />
+        <activity
+            android:name=".sellerRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".sellerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- <meta-data -->
+            <!-- android:name="com.google.firebase.database.collection.default" -->
+            <!-- android:value="1:753376980184:android:40682b43bc325b017bbbad"/> -->
+            <!-- <meta-data android:name="com.google.firebase.database.DatabaseURL" -->
+            <!-- android:value="https://bookworm-user-project-default-rtdb.firebaseio.com/"/> -->
+
+            <meta-data
+                android:name="com.google.android.gms.wallet.api.enabled"
+                android:value="true" />
+            <meta-data
+                android:name="com.razorpay.ApiKey"
+                android:value="rzp_test_vnFnqHrrMQf4ta" />
+        </activity>
+    </application>
+
+</manifest>

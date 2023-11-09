@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CACEED"
+    tools:context=".SellerHomeProducts">
+
+     <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="#F8F5F5"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <EditText
+                android:id="@+id/editTextmail"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:ems="10"
+                android:hint="  Email"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+                android:minHeight="48dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.223" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                android:layout_marginTop="100dp"
+                app:boxBackgroundColor="@color/purple_500"
+                app:boxBackgroundMode="outline"
+                app:counterEnabled="true"
+                app:counterMaxLength="8"
+                app:endIconMode="password_toggle"
+
+                app:helperText="Required"
+                app:helperTextEnabled="true"
+                app:helperTextTextColor="#E10909"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.392"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.374">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:drawableLeft="@drawable/ic_baseline_lock_24"
+                    android:hint="Enter a password"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

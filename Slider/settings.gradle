@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        mavenCentral()
+          // e.g this is how you would add jitpack
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "Slider"
+include ':app'

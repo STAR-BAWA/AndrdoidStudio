@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2DFF8"
+    tools:context=".PageDetailsVendor">
+
+    <!--    <TextView-->
+<!--        android:id="@+id/textViewDescDetail"-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="255dp"-->
+<!--        android:text="Content"-->
+<!--        android:textSize="23dp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.804" />-->
+
+    <TextView
+        android:id="@+id/TextBookTitleDetails"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="left"
+        android:text="BooK Title"
+        android:textColor="#000000"
+        android:textSize="33dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+    android:id="@+id/shapeable_image_view"
+    android:layout_width="match_parent"
+    android:layout_height="185dp"
+    android:layout_marginTop="4dp"
+    android:scaleType="center"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.788"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+
+    app:strokeWidth="2dp"
+     />
+
+
+    <TextView
+        android:id="@+id/BookAuthorDetails"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="128dp"
+        android:gravity="right"
+        android:text="Book Author"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shapeable_image_view" />
+
+    <TextView
+        android:id="@+id/VendorPhNumberDetails"
+        android:layout_width="231dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+        android:text="Seller Number"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:cardBackgroundColor="#CEDFEA"
+        app:cardElevation="45dp"
+        app:cardCornerRadius="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BookAuthorDetails"
+        app:layout_constraintVertical_bias="0.147">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fillViewport="true"
+
+            app:layout_constraintBottom_toTopOf="@+id/VendorPhNumberDetails"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewDescDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Content"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.804" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

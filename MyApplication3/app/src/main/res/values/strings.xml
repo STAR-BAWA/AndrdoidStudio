@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application3</string>
+    <string name="click_to_disp">CLiCK TO Disp</string>
+    <string name="textview">TextView</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="textview1">TextView</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEllo Star"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="24dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptas, eos aut sit sapiente voluptates non cupiditate ipsam rem culpa accusantium quasi laborum cum aliquam totam ex consequatur quam iure voluptatem dolores quo! Sequi perferendis delectus dolore odio natus molestiae. Voluptate dicta eveniet sed pariatur blanditiis veritatis enim eius, dolore cumque! Inventore sit earum quis corporis iusto totam optio modi nobis deserunt. Velit corporis laborum, possimus veniam quod culpa autem magni error saepe libero aspernatur dolorem. Culpa voluptatem doloribus eligendi voluptatibus ipsa magni, veniam recusandae sint ut? Vero esse libero, minima incidunt debitis alias blanditiis architecto recusandae nesciunt, dolorum quidem aliquam doloremque deserunt, iste ipsa minus ad. Nesciunt repellendus, quae minima aperiam consequuntur ipsum pariatur minus nobis vel adipisci, officia quis dolore, accusantium reiciendis. Ullam molestiae accusantium vel voluptates, officia eius nihil magni! Molestiae odio aliquid iusto impedit, enim nam aliquam modi, soluta sed, eaque cupiditate debitis minima nesciunt. Atque voluptatum saepe harum cum officiis unde quidem, accusantium maiores sunt, a velit voluptas libero deleniti consequatur consectetur alias sapiente, ipsum esse ratione quia odio officia commodi! Distinctio dolore quidem praesentium laudantium adipisci. Temporibus reprehenderit hic sapiente vero corporis animi a impedit id totam, itaque quo dolorum sint dolores veritatis iure corrupti. Maxime qui modi ullam totam provident nulla consequuntur placeat obcaecati quam laudantium atque quidem officiis laborum doloremque, sit magnam harum dolor adipisci quisquam. Est necessitatibus soluta rerum labore illo commodi animi quis laborum porro eos? Voluptas eum aliquid minima deleniti vero delectus rerum neque ratione, ex reiciendis a in sapiente eius quisquam qui illo dolorem! Corrupti, ut atque, nihil non incidunt soluta voluptatem facere aliquam itaque labore quisquam doloremque. Vitae blanditiis cum sint iste unde eos in repellat rem? Distinctio itaque, qui maiores dolorum quia voluptatum iure voluptates eaque libero, non ea error expedita ullam illum, adipisci dicta? Suscipit natus itaque, maiores dolorem et velit, corrupti modi libero dolores laborum deleniti tenetur quo maxime pariatur dolorum est deserunt quod qui saepe magni molestiae. Accusamus, possimus! Temporibus laudantium sed eveniet aliquam tempore quia culpa nemo maxime nesciunt quis fugit non rem eaque dolores ad quam quasi voluptatum incidunt impedit vero quos earum, aspernatur magnam! Expedita laboriosam odio nostrum eum aliquid neque cumque magnam odit. At, magni temporibus autem cupiditate quam commodi fuga tempore, magnam eligendi ad, eos molestiae. Labore, dignissimos minus ipsum error veritatis cum voluptatum? Eos deleniti blanditiis quia tenetur, consectetur quidem harum ipsam, neque qui ipsum magni illo?"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

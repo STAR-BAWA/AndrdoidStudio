@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/drawable/button_style.xml" value="0.1275" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/drawable/edittextstyle.xml" value="0.2145" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1735" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_house_24.xml" value="0.1735" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1755" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.15194109772423026" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/layout-w936dp/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/layout/activity_forgotpasswordpage.xml" value="0.4" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/layout/activity_intro_screen.xml" value="0.2" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/layout/activity_login.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/layout/activity_login_of_seller.xml" value="0.25" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/layout/activity_main.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/starb/AndroidStudioProjects/Project/app/src/main/res/layout/activity_seller_login.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

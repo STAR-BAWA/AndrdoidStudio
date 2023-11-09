@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bookworm_user">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+
+        android:label="@string/app_name"
+
+
+        android:theme="@style/Theme.Bookworm_user"
+        tools:targetApi="31">
+        <activity
+            android:name=".payment_activity"
+            android:exported="false" />
+        <activity
+            android:name=".CartItem"
+            android:exported="false" />
+        <activity
+            android:name=".ShoppingCart"
+            android:exported="false" />
+        <activity
+            android:name=".User_profil_phone"
+            android:exported="false" />
+        <activity
+            android:name=".order_user"
+            android:exported="false" />
+        <activity
+            android:name=".profile_user"
+            android:exported="false" />
+        <activity
+            android:name=".Menu_Activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".User_Home_Activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Home_Activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".AdminCategoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".AdminAddNewProductActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Contact_Support_Activity_user"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".product_details_activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".login_activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".Registration_activity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light">
+
+        </activity>
+    </application>
+
+</manifest>

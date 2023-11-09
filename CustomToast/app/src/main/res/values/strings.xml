@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomToast</string>
+    <item name="floating2" type="id" />
+</resources>

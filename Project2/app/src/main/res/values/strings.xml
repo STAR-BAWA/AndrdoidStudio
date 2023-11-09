@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Vendor Panel</string>
+    <string name="title_activity_home_page_vendor">HomePageVendor</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="t_c">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, excepturi voluptate impedit vitae fugit alias quis, harum vel deserunt sequi aliquam beatae in iste odit suscipit officiis modi dicta tenetur dolore aspernatur adipisci ad. Eligendi accusamus exercitationem expedita earum dolor, quisquam officia nobis autem molestiae voluptate qui? Aut nam possimus perferendis ipsam libero iure aliquam laudantium, minima nemo architecto eius expedita id illo totam aspernatur necessitatibus ad cum voluptatem quaerat suscipit ab omnis blanditiis, ipsa earum! Facere, ullam neque. A, tempora.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cart_login">cart_activity_login</string>
+</resources>

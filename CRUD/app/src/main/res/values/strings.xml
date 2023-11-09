@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CRUD</string>
+    <array name="departments">
+        <item>Technical</item>
+        <item>Human resource</item>
+        <item>management</item>
+        <item>Catering</item>
+    </array>
+</resources>
